@@ -1,5 +1,5 @@
 // Described in the documentation
-import iziToast from 'izitoast/dist/js/iziToast';
+import iziToast from 'izitoast/dist/js/iziToast.min.js';
 // Additional import of styles
 import 'izitoast/dist/css/iziToast.min.css';
 

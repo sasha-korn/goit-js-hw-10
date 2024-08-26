@@ -1,5 +1,5 @@
 // Described in the documentation
-import iziToast from 'izitoast';
+import iziToast from 'izitoast/dist/js/iziToast';
 // Additional import of styles
 import 'izitoast/dist/css/iziToast.min.css';
 
@@ -12,8 +12,7 @@ function onSubmit(event) {
   const delay = document.querySelector('[name="delay"]').value.trim();
   const isFulfilled =
     document.querySelector('[name="state"]:checked').value === 'fulfilled';
-  //   const isRejected = document.querySelector('[value="rejected"]:checked').value;
-  console.log(delay, isFulfilled);
+
   new Promise((resolve, reject) => {
     setTimeout(() => {
       if (isFulfilled) {

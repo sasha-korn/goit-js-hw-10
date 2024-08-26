@@ -6,3 +6,29 @@
 */
 /* Common styles */
 @import url('./reset.css');
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  width: 300px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+/* .form > fieldset {
+  display: flex;
+}
+.form > fieldset > label > input {
+  width: 300px;
+} */
+.form > button {
+  margin-top: 10px;
+}
+.form > fieldset {
+  margin: 0px;
+  border-radius: 4px;
+  display: flex;
+  gap: 100px;
+}

@@ -32,3 +32,22 @@
   display: flex;
   gap: 100px;
 }
+
+/* Task 1 */
+.timer {
+  display: flex;
+  gap: 20px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.value {
+  font-size: 55px;
+}
+
+#datetime-picker {
+  width: 260px;
+}

@@ -1,5 +1,5 @@
 // Described in the documentation
-import iziToast from 'izitoast/dist/js/iziToast.min.js';
+import iziToast from 'izitoast';
 // Additional import of styles
 import 'izitoast/dist/css/iziToast.min.css';
 
@@ -36,7 +36,7 @@ function showNotification(message, color) {
   iziToast.show({
     message: message,
     position: 'topRight',
-    // color: color,
+
     progressBar: false,
     theme: 'dark',
     backgroundColor: color,
